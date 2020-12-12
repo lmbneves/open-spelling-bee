@@ -10,14 +10,14 @@ MAX_PUZZLE_TRIES = 100000
 
 # file paths
 WORD_LIST_PATH = 'word_lists' + os.sep + 'TWL06.txt'
-PUZZLE_DATA_PATH = 'data'
+PUZZLE_DATA_PATH = 'plots'
 
 # multithreading if more than 1
 THREADS = 1
 
 # set minimum word length and total letters used
 MIN_WORD_LENGTH = 4
-TOTAL_LETTER_COUNT = 7
+TOTAL_LETTER_COUNT = 9
 
 VOWEL_LIST = ('A', 'E', 'I', 'O', 'U')
 
@@ -26,10 +26,10 @@ COUNT_PANGRAMS = 1
 
 # word count limits
 MIN_WORD_COUNT = 30
-MAX_WORD_COUNT = 50
+MAX_WORD_COUNT = 80
 
 # total score limits
 MIN_TOTAL_SCORE = 80
-MAX_TOTAL_SCORE = 120
+MAX_TOTAL_SCORE = 160
 
 PRINT_INVALID = False
